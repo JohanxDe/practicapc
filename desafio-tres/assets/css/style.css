@@ -1,0 +1,122 @@
+
+
+
+
+*{
+    margin: 0;
+}
+
+body{
+    background-color: black;
+    font-family: "Raleway", sans-serif ;
+    /* font: normal normal medium 50px/59px; */
+}
+header{
+    color: white;
+    text-align: center;
+    font-size: medium;
+    padding-top: 7px;
+}
+
+
+.box{
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: nowrap;
+    align-items: center;
+    color: white;
+    padding-top: 45px;
+    padding-bottom: 66px;
+    padding-left: 150px;
+    padding-right: 237px;
+    gap: 106px;
+}
+
+.box p{
+    float: right;
+}
+
+.box img{
+    height: 237px;
+    width: 399px; 
+}
+
+.flex{
+    background-color: #1e1a13;
+    display: flex;
+    gap: 211px;
+    justify-content: center;
+    color: white;
+    padding-right: 323px;
+    padding-left: 326px;
+    padding-bottom: 120px;
+    /* padding-top: 50px; */
+    /* padding: 70px; */
+    text-align: center;
+}
+
+.flex p{
+    padding-top: 16px;
+    text-align: center;
+}
+
+h2{
+    background-color: #1e1a13;
+    text-align: center;
+    color: white;
+    padding-left: 463px;
+    padding-right: 460px;
+    padding-top: 75px;
+    padding-bottom: 50px;
+}
+
+/* section{
+    display: flex;
+    color: white;
+    background-color: #1e1a13;
+    padding: 40px;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+} */
+
+/* ul{
+    color: white;
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    background-color: #1e1a13;
+    justify-content: center;
+}
+
+
+li{
+    padding: 90px;
+    width: 100px;
+} */
+
+.boxes{
+    display: flex;
+    height: 202px;
+    width: 316px;
+    gap: 16px;
+    padding-top: 73px;
+    padding-bottom: 73px;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+footer{
+    padding: 30px;
+    text-align: center;
+    background-color: #1e1a13;
+    color: white;
+}
+ 
+/* table{
+    text-align: center;
+    color: white;
+    border: solid 2px;
+} */
+
